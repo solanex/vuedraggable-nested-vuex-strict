@@ -69,9 +69,11 @@ export default {
                         this.updateChildrenByElementId({
                             elementId: this.elementId,
                             children: newValue
-                        })
+                        });
+                        
+                    resolve();
                 }, 1)
-                resolve();
+        
             })
         },
         add(e) {
