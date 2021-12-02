@@ -71,6 +71,7 @@ export default {
                             children: newValue
                         })
                 }, 1)
+                resolve();
             })
         },
         add(e) {
